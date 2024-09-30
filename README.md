@@ -2,9 +2,13 @@
 
 ที่เก็บนี้มาจากเทมเพลตเริ่มต้นของ AWS ที่ถูกปรับแต่งเพื่อรองรับการแปลเป็นภาษาไทย เทมเพลตนี้จัดเตรียมเทมเพลตเริ่มต้นสำหรับการสร้างแอปพลิเคชันโดยใช้ Vue.js และ AWS Amplify โดยเน้นความง่ายในการตั้งค่าสำหรับการตรวจสอบสิทธิ์, API, และความสามารถของฐานข้อมูล
 
+![Amplify Cognito Thai](https://github.com/vLannaAi/thai-amplify-vue-template/blob/main/public/AWSThai.png)
+
 ## ภาพรวม
 
 เทมเพลตนี้จะช่วยให้คุณมีแอปพลิเคชัน Vue พื้นฐานที่ผสานรวมกับ AWS Amplify พร้อมใช้งาน โดยออกแบบมาเพื่อรองรับการขยายตัวและประสิทธิภาพ เหมาะสำหรับนักพัฒนาที่ต้องการเริ่มต้นโครงการด้วยบริการ AWS ที่ถูกตั้งค่าไว้ล่วงหน้า เช่น Cognito, AppSync, และ DynamoDB
+
+![MultiLanguage](https://github.com/vLannaAi/thai-amplify-vue-template/blob/main/public/i18n.png)
 
 ## คุณสมบัติ
 
