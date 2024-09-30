@@ -12,15 +12,32 @@
 - **API**: พร้อมใช้งานกับ GraphQL endpoint ด้วย AWS AppSync
 - **ฐานข้อมูล**: ฐานข้อมูลเรียลไทม์ขับเคลื่อนด้วย Amazon DynamoDB
 
-## การปรับใช้ไปยัง AWS
-
-สำหรับคำแนะนำโดยละเอียดเกี่ยวกับการปรับใช้แอปพลิเคชันของคุณ โปรดดูที่ [ส่วนการปรับใช้](https://docs.amplify.aws/vue/start/quickstart/#deploy-a-fullstack-app-to-aws) ของเอกสาร AWS
-
 ## ใบอนุญาต
 
 ไลบรารีนี้ได้รับอนุญาตภายใต้ใบอนุญาต MIT-0 ดูไฟล์ LICENSE
 
-&nbsp;
+## เริ่มต้นอย่างรวดเร็ว
+
+1. โคลนหรือดาวน์โหลดที่เก็บข้อมูลนี้
+2. ติดตั้งแพ็คเกจที่จำเป็นทั้งหมดของโปรเจกต์
+
+```bash
+npm install
+```
+
+3. เริ่มต้น sandbox ในเครื่อง จำเป็นต้องมีสภาพแวดล้อม AWS CLI ที่กำหนดค่าไว้แล้ว ขั้นตอนจะแนะนำวิธีตั้งค่าหากยังไม่มี
+
+```bash
+npx ampx sandbox
+```
+
+4. รันในเครื่อง
+
+```bash
+npx run dev
+```
+
+5. การเผยแพร่บน AWS สำหรับคำแนะนำโดยละเอียดในการเผยแพร่แอปพลิเคชันของคุณ โปรดดูที่[ส่วนการเผยแพร่](https://docs.amplify.aws/vue/start/quickstart/#deploy-a-fullstack-app-to-aws) ของเอกสาร AWS ตั้งแต่ขั้นตอนที่ 2
 
 
 ---
@@ -44,14 +61,28 @@ This template equips you with a foundational Vue application integrated with AWS
 - **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
 - **Database**: Real-time database powered by Amazon DynamoDB.
 
-## Deploying to AWS
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/vue/start/quickstart/#deploy-a-fullstack-app-to-aws) of AWS documentation.
 
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
 ## QuickStart
+1. Clone or download this repository. 
 
+2. Install all the project dependencies
+```bash
 npm install
+```
+3. Start local sandbox. It's required a configured AWS cli environment, the procedure will guide to setup if not available.
+```bash
+npx ampx sandbox
+```
+
+4. Run locally
+```bash
+npx run dev
+```
+
+5. Deploying to AWS
+For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/vue/start/quickstart/#deploy-a-fullstack-app-to-aws) of AWS documentation from Step 2.
